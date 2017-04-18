@@ -24,31 +24,31 @@
       </div>
 
 
-    <div class="valign-wrapper" style="width:100%;height:100%;position: absolute;">
+    <div class="valign-wrapper contenedor" >
         <div class="valign" style="width:100%;">
             <div class="container">
                <div class="row">
                   <div class="col s12 m6 offset-m3">
                      <div class="card">
                         <div class="card-content">
-                           <span class="card-title black-text">Sign In</span>
-                           <form>
+                           <span class="card-title black-text">Ingreso</span>
+                           <form method="post" action="checklogin.php">
                               <div class="row">
                                  <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="firstname" type="text" class="validate">
+                                    <input placeholder="Ingrese su usuario" id="firstname" type="text" class="validate">
                                     <label for="firstname" class="active">First Name</label>
                                  </div>
                               </div>
                               <div class="row">
                                  <div class="input-field col s12">
-                                    <input placeholder="Placeholder" id="lastname" type="text" class="validate">
+                                    <input placeholder="Password" id="lastname" type="text" class="validate">
                                     <label for="lastname" class="active">Last Name</label>
                                  </div>
                               </div>
                            </form>
                         </div>
                         <div class="card-action">
-                           <input type="submit" class="btn" value="Sign In">
+                           <input type="submit" class="btn  blue lighten-2 waves-effect" value="Sign In">
                         </div>
                      </div>
                   </div>
