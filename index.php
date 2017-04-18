@@ -35,14 +35,14 @@
                            <form method="post" action="checklogin.php">
                               <div class="row">
                                  <div class="input-field col s12">
-                                    <input placeholder="Ingrese su usuario" id="firstname" type="text" class="validate">
-                                    <label for="firstname" class="active">First Name</label>
+                                    <input placeholder="Ingrese su usuario" name="myusername"  id="myusername" type="text" class="validate" required>
+                                    <label for="firstname" class="active">Usuario</label>
                                  </div>
                               </div>
                               <div class="row">
                                  <div class="input-field col s12">
-                                    <input placeholder="Password" id="lastname" type="text" class="validate">
-                                    <label for="lastname" class="active">Last Name</label>
+                                    <input placeholder="Ingrese su contraseña" name="mypassword"  id="mypassword" type="password" class="validate" required>
+                                    <label for="lastname" class="active">Password</label>
                                  </div>
                               </div>
                            </form>
