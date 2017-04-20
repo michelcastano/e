@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -32,7 +32,7 @@
                      <div class="card">
                         <div class="card-content">
                            <span class="card-title black-text">Ingreso</span>
-                           <form method="post" action="checklogin.html">
+                           <form method="post" action="checklogin.php">
                               <div class="row">
                                  <div class="input-field col s12">
                                     <input placeholder="Ingrese su usuario" name="myusername"  id="myusername" type="text" class="validate" required>
@@ -48,7 +48,7 @@
                            </form>
                         </div>
                         <div class="card-action">
-                           <input type="submit" class="btn  blue lighten-2 waves-effect" value="Sign In">
+                           <input type="submit" class="btn  blue lighten-2 waves-effect" value="Login">
                         </div>
                      </div>
                   </div>
