@@ -45,11 +45,11 @@
                                     <label for="lastname" class="active">Password</label>
                                  </div>
                               </div>
-                           </form>
                         </div>
                         <div class="card-action">
                            <input type="submit" class="btn  blue lighten-2 waves-effect" value="Login">
                         </div>
+                      </form>
                      </div>
                   </div>
                </div>
