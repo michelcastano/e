@@ -29,28 +29,28 @@
             <div class="container">
                <div class="row">
                   <div class="col s12 m6 offset-m3">
-                     <div class="card">
-                        <div class="card-content">
-                           <span class="card-title black-text">Ingreso</span>
-                           <form method="post" action="checklogin.php">
-                              <div class="row">
-                                 <div class="input-field col s12">
-                                    <input placeholder="Ingrese su usuario" name="myusername"  id="myusername" type="text" class="validate" required>
-                                    <label for="firstname" class="active">Usuario</label>
-                                 </div>
-                              </div>
-                              <div class="row">
-                                 <div class="input-field col s12">
-                                    <input placeholder="Ingrese su contraseña" name="mypassword"  id="mypassword" type="password" class="validate" required>
-                                    <label for="lastname" class="active">Password</label>
-                                 </div>
-                              </div>
-                        </div>
-                        <div class="card-action">
-                           <input type="submit" class="btn  blue lighten-2 waves-effect" value="Login">
-                        </div>
-                      </form>
-                     </div>
+                    <form method="post" action="checklogin.php">
+                       <div class="card">
+                          <div class="card-content">
+                             <span class="card-title black-text">Ingreso</span>
+                                <div class="row">
+                                   <div class="input-field col s12">
+                                      <input placeholder="Ingrese su usuario" name="myusername"  id="myusername" type="text" class="validate" required>
+                                      <label for="firstname" class="active">Usuario</label>
+                                   </div>
+                                </div>
+                                <div class="row">
+                                   <div class="input-field col s12">
+                                      <input placeholder="Ingrese su contraseña" name="mypassword"  id="mypassword" type="password" class="validate" required>
+                                      <label for="lastname" class="active">Password</label>
+                                   </div>
+                                </div>
+                          </div>
+                          <div class="card-action">
+                             <input type="submit" class="btn  blue lighten-2 waves-effect" value="Login">
+                          </div>
+                       </div>
+                     </form>
                   </div>
                </div>
             </div>
