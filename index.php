@@ -32,7 +32,7 @@
                      <div class="card">
                         <div class="card-content">
                            <span class="card-title black-text">Ingreso</span>
-                           <form method="post" action="checklogin.php">
+                           <form method="post" action="checklogin.html">
                               <div class="row">
                                  <div class="input-field col s12">
                                     <input placeholder="Ingrese su usuario" name="myusername"  id="myusername" type="text" class="validate" required>
