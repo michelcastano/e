@@ -39,9 +39,9 @@ if($count==1){
   }
 else {
   require 'header.php';
-  echo Nombre o contraseña incorrectos";
+  echo Nombre o contrasena incorrectos";
 }
-echo '<a href="logout.php">Cerrar Sesion</a>';
+echo '<a href="logout.php">Volver al Inicio</a>';
 require 'footer.php';
 exit;
 ?>
