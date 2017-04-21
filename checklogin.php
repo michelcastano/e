@@ -21,12 +21,10 @@
           <img src="media/logodriverscore.png" class="logo"/>
         </div>
       </div>
-      <?php
-      require php/checklogin2.php;
-      ?>
-
-
-
-
+      <div class="row">
+        <?php
+         require("php/checklogin2.php");
+        ?>
+      </div>
   </body>
 </html>

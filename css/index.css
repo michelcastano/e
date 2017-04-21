@@ -38,3 +38,8 @@ body {
   height:100%;
   /*position: absolute;*/
 }
+
+.volver{
+  margin-left:auto; 
+  margin-right:auto;
+}

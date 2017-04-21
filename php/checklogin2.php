@@ -1,7 +1,6 @@
 <?php
 //MySQL Connection
-echo "hola";
-/*require("constants.php");
+require("constants.php");
 $tbl_name = 'members';
 $connection = mysql_connect(DB_SERVER,DB_USER,DB_PASS);
 if (!$connection) {
@@ -39,10 +38,18 @@ if($count==1){
   header('location: initcalif.php');
   }
 else {
-  require 'header.php';
-  echo Nombre o contrasena incorrectos";
+
+  echo '<div class="row">
+          <div class="col m3 l4" ></div>
+          <div class="col s12 m6 l4 flow-text white-text" >
+           <h5> Nombre o contrasena incorrectos</h5>
+          </div>
+          <div class="col m3 l4" ></div>
+        </div>
+  
+  ';
 }
-echo '<a href="logout.php">Volver al Inicio</a>';
-require 'footer.php';
-exit;*/
+echo '<a class="waves-effect waves-light blue lighten-2 btn" href="php/logout.php">Volver al Inicio</a>';
+
+exit;
 ?>
