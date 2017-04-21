@@ -16,14 +16,15 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
-      <div class="row">
-        <div class="col s12 m3 l3 header">
-          <img src="media/logodriverscore.png" class="logo"/>
-        </div>
+    <div class="row">
+      <div class="col s12 m3 l3 header">
+        <img src="media/logodriverscore.png" class="logo"/>
       </div>
-      <?php
-      require php/checklogin.php;
-      ?>
+    </div>
+    <?php
+    echo "este es el 1";
+    //require php/checklogin2.php;
+    ?>
 
 
 

@@ -1,6 +1,7 @@
 <?php
 //MySQL Connection
-require("constants.php");
+echo "hola";
+/*require("constants.php");
 $tbl_name = 'members';
 $connection = mysql_connect(DB_SERVER,DB_USER,DB_PASS);
 if (!$connection) {
@@ -43,5 +44,5 @@ else {
 }
 echo '<a href="logout.php">Volver al Inicio</a>';
 require 'footer.php';
-exit;
+exit;*/
 ?>
