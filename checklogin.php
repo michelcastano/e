@@ -22,7 +22,7 @@
         </div>
       </div>
       <?php
-      require php/checklogin.php;
+      require php/checklogin2.php;
       ?>
 
 
